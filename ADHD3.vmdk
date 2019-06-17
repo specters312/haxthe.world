@@ -1,0 +1,27 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=602b2130
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "ADHD3-s001.vmdk"
+RW 8323072 SPARSE "ADHD3-s002.vmdk"
+RW 8323072 SPARSE "ADHD3-s003.vmdk"
+RW 8323072 SPARSE "ADHD3-s004.vmdk"
+RW 8323072 SPARSE "ADHD3-s005.vmdk"
+RW 327680 SPARSE "ADHD3-s006.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "2610"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "3f9fc83d444888f52502ac0d602b2130"
+ddb.toolsInstallType = "2"
+ddb.toolsVersion = "10309"
+ddb.uuid = "60 00 C2 93 51 41 5c 7f-aa ff 58 2e 7b ec 5a 71"
+ddb.virtualHWVersion = "4"
